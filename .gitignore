@@ -1,0 +1,16 @@
+# Generated at runtime — never commit these
+unpacked/
+unpacked_check/
+result_contract.docx
+*.pdf
+page-*.jpg
+page2-*.jpg
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Env / secrets
+.env
