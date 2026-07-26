@@ -57,6 +57,9 @@ it's code, not a language-generation task.
 chat instruction
       │
       ▼
+appy.py (Tkinter gui/chat interface)
+      │
+      ▼
 graph_builder.py   → parses word/document.xml into DocGraph
       │                (bookmarks, REF fields, formula fields)
       ▼
@@ -71,6 +74,7 @@ propagate.py         → deterministic: syncs every REF, recomputes
       ▼
 repack → validate → result.docx
 ```
+
 
 ## Why this hits the cost bar
 
