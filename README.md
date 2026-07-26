@@ -1,4 +1,7 @@
 # docedit — chat-driven Word editor prototype
+## Overview
+
+This project demonstrates a graph-based AI DOCX editor that performs chat-driven edits while preserving document consistency across references, bookmarks, and derived values.
 
 Solves a specific failure mode: editing a value that's referenced in more
 than one place in a long document (e.g. a price restated on "page 22" and
